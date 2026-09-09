@@ -1,0 +1,260 @@
+[
+  {
+    "name": "TrailBlaze Waterproof Jacket",
+    "description": "Lightweight waterproof hiking jacket with breathable membrane, ideal for wet trail conditions.",
+    "category": "Outdoor",
+    "price": 45.99
+  },
+  {
+    "name": "Summit Pro Hiking Boots",
+    "description": "Durable ankle-support hiking boots with rubber grip sole for rocky terrain.",
+    "category": "Outdoor",
+    "price": 89.99
+  },
+  {
+    "name": "Everyday Cotton T-Shirt",
+    "description": "Soft breathable cotton t-shirt for casual daily wear.",
+    "category": "Apparel",
+    "price": 12.99
+  },
+  {
+    "name": "Alpine Storm Shell",
+    "description": "Heavy-duty waterproof shell jacket designed for hiking, climbing, and severe mountain weather.",
+    "category": "Outdoor",
+    "price": 119.99
+  },
+  {
+    "name": "RidgeRunner Trail Shoes",
+    "description": "Lightweight trail running shoes with aggressive traction for muddy and uneven hiking paths.",
+    "category": "Outdoor",
+    "price": 74.99
+  },
+  {
+    "name": "Forest Trek Pants",
+    "description": "Durable stretch hiking pants with water-resistant fabric and multiple utility pockets.",
+    "category": "Outdoor",
+    "price": 54.99
+  },
+  {
+    "name": "Summit Fleece Pullover",
+    "description": "Warm lightweight fleece pullover for layering during cool-weather hikes and camping trips.",
+    "category": "Outdoor",
+    "price": 39.99
+  },
+  {
+    "name": "Explorer Daypack 25L",
+    "description": "Compact 25-liter hiking backpack with hydration compartment and padded shoulder straps.",
+    "category": "Outdoor",
+    "price": 64.99
+  },
+  {
+    "name": "Canyon Trekking Poles",
+    "description": "Adjustable aluminum trekking poles with ergonomic handles for stability on steep trails.",
+    "category": "Outdoor",
+    "price": 29.99
+  },
+  {
+    "name": "StormGuard Rain Pants",
+    "description": "Packable waterproof rain pants designed to keep hikers dry during heavy rainfall.",
+    "category": "Outdoor",
+    "price": 34.99
+  },
+  {
+    "name": "Thermal Base Layer",
+    "description": "Moisture-wicking thermal long-sleeve base layer for cold-weather outdoor activities.",
+    "category": "Outdoor",
+    "price": 27.99
+  },
+  {
+    "name": "Peak Performance Windbreaker",
+    "description": "Lightweight wind-resistant jacket for hiking, running, and exposed mountain trails.",
+    "category": "Outdoor",
+    "price": 49.99
+  },
+  {
+    "name": "Urban Cotton Hoodie",
+    "description": "Soft heavyweight cotton-blend hoodie designed for comfortable everyday casual wear.",
+    "category": "Apparel",
+    "price": 34.99
+  },
+  {
+    "name": "Classic Slim Chinos",
+    "description": "Versatile slim-fit cotton chinos suitable for office wear and smart casual outfits.",
+    "category": "Apparel",
+    "price": 39.99
+  },
+  {
+    "name": "Performance Polo Shirt",
+    "description": "Breathable moisture-wicking polo shirt suitable for casual wear, travel, and outdoor activities.",
+    "category": "Apparel",
+    "price": 24.99
+  },
+  {
+    "name": "Relaxed Linen Shirt",
+    "description": "Lightweight linen button-down shirt designed for warm weather and relaxed summer outfits.",
+    "category": "Apparel",
+    "price": 32.99
+  },
+  {
+    "name": "Essential V-Neck Tee",
+    "description": "Soft cotton-blend V-neck t-shirt with a comfortable fit for everyday use.",
+    "category": "Apparel",
+    "price": 14.99
+  },
+  {
+    "name": "Merino Wool Sweater",
+    "description": "Soft temperature-regulating merino wool sweater for comfortable layering in cool weather.",
+    "category": "Apparel",
+    "price": 69.99
+  },
+  {
+    "name": "Athletic Jogger Pants",
+    "description": "Stretchy lightweight joggers with moisture-wicking fabric for workouts and casual lounging.",
+    "category": "Apparel",
+    "price": 29.99
+  },
+  {
+    "name": "Classic Denim Jacket",
+    "description": "Midweight cotton denim jacket with a timeless design for casual everyday outfits.",
+    "category": "Apparel",
+    "price": 59.99
+  },
+  {
+    "name": "Running Performance Shorts",
+    "description": "Lightweight quick-drying athletic shorts with breathable panels for running and training.",
+    "category": "Apparel",
+    "price": 19.99
+  },
+  {
+    "name": "Wireless Noise Cancelling Headphones",
+    "description": "Over-ear Bluetooth headphones with active noise cancellation and long battery life.",
+    "category": "Electronics",
+    "price": 129.99
+  },
+  {
+    "name": "Compact Bluetooth Speaker",
+    "description": "Portable waterproof Bluetooth speaker with clear audio and up to twelve hours of battery life.",
+    "category": "Electronics",
+    "price": 49.99
+  },
+  {
+    "name": "Ergonomic Wireless Mouse",
+    "description": "Comfortable wireless mouse with adjustable sensitivity designed for long computer sessions.",
+    "category": "Electronics",
+    "price": 24.99
+  },
+  {
+    "name": "Mechanical Gaming Keyboard",
+    "description": "Compact mechanical keyboard with tactile switches and programmable keys for gaming and productivity.",
+    "category": "Electronics",
+    "price": 79.99
+  },
+  {
+    "name": "USB-C Fast Charger",
+    "description": "Compact 65W USB-C wall charger for quickly charging laptops, tablets, and smartphones.",
+    "category": "Electronics",
+    "price": 39.99
+  },
+  {
+    "name": "Smart Fitness Watch",
+    "description": "Fitness smartwatch with heart-rate tracking, activity monitoring, GPS, and sleep tracking.",
+    "category": "Electronics",
+    "price": 99.99
+  },
+  {
+    "name": "Portable Power Bank",
+    "description": "High-capacity USB-C power bank for charging smartphones and other devices while traveling.",
+    "category": "Electronics",
+    "price": 44.99
+  },
+  {
+    "name": "4K Streaming Webcam",
+    "description": "High-resolution webcam with autofocus and built-in microphone for video meetings and streaming.",
+    "category": "Electronics",
+    "price": 89.99
+  },
+  {
+    "name": "Minimalist Desk Lamp",
+    "description": "Adjustable LED desk lamp with multiple brightness levels for reading and computer work.",
+    "category": "Home",
+    "price": 34.99
+  },
+  {
+    "name": "Memory Foam Pillow",
+    "description": "Contoured memory foam pillow designed to provide neck support and comfortable sleep.",
+    "category": "Home",
+    "price": 39.99
+  },
+  {
+    "name": "Bamboo Cutting Board",
+    "description": "Durable natural bamboo cutting board with a spacious surface for everyday kitchen preparation.",
+    "category": "Home",
+    "price": 22.99
+  },
+  {
+    "name": "Ceramic Coffee Mug Set",
+    "description": "Set of four durable ceramic mugs suitable for coffee, tea, and everyday kitchen use.",
+    "category": "Home",
+    "price": 24.99
+  },
+  {
+    "name": "Cotton Bath Towel Set",
+    "description": "Soft absorbent cotton towel set designed for comfortable everyday bathroom use.",
+    "category": "Home",
+    "price": 29.99
+  },
+  {
+    "name": "Stainless Steel Water Bottle",
+    "description": "Insulated stainless steel bottle that keeps drinks cold or hot for hours.",
+    "category": "Home",
+    "price": 27.99
+  },
+  {
+    "name": "Robot Vacuum Cleaner",
+    "description": "Automatic robotic vacuum with scheduled cleaning and smart navigation for hard floors and carpets.",
+    "category": "Home",
+    "price": 199.99
+  },
+  {
+    "name": "Aromatic Soy Candle",
+    "description": "Hand-poured soy wax candle with a subtle cedar and vanilla fragrance for relaxing spaces.",
+    "category": "Home",
+    "price": 18.99
+  },
+  {
+    "name": "TrailFuel Insulated Lunch Bag",
+    "description": "Insulated lunch bag with compact storage designed for work, travel, hiking, and outdoor activities.",
+    "category": "Accessories",
+    "price": 21.99
+  },
+  {
+    "name": "Everyday Canvas Backpack",
+    "description": "Simple durable canvas backpack with laptop compartment for commuting, school, and daily travel.",
+    "category": "Accessories",
+    "price": 44.99
+  },
+  {
+    "name": "Polarized Trail Sunglasses",
+    "description": "Lightweight polarized sunglasses that reduce glare and provide eye protection during hiking and travel.",
+    "category": "Accessories",
+    "price": 31.99
+  },
+  {
+    "name": "Leather Travel Wallet",
+    "description": "Compact leather wallet with compartments for cards, cash, and travel documents.",
+    "category": "Accessories",
+    "price": 26.99
+  },
+  {
+    "name": "Waterproof Travel Duffel",
+    "description": "Large weather-resistant duffel bag with reinforced handles for weekend trips and outdoor adventures.",
+    "category": "Accessories",
+    "price": 69.99
+  },
+  {
+    "name": "Merino Hiking Socks",
+    "description": "Moisture-wicking merino wool hiking socks with cushioned soles for long-distance trail walking.",
+    "category": "Accessories",
+    "price": 16.99
+  }
+]
