@@ -1,4 +1,42 @@
 package com.nirupama.ragproductsearch.ingestion;
 
-public class ProductIngestionRunner {
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.nirupama.ragproductsearch.model.Product;
+import org.springframework.ai.document.Document;
+import org.springframework.ai.vectorstore.VectorStore;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.core.io.Resource;
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+import java.util.Map;
+
+@Component
+public class ProductIngestionRunner implements CommandLineRunner {
+
+    private final VectorStore vectorStore;
+
+    @Value("classpath:/products.json")
+    private Resource productsFile;
+
+    public ProductIngestionRunner(VectorStore vectorStore) {
+        this.vectorStore = vectorStore;
+    }
+
+    @Override
+    public void run(String... args) throws Exception {
+        ObjectMapper mapper = new ObjectMapper();
+        Product[] products = mapper.readValue(productsFile.getInputStream(), Product[].class);
+
+        List<Document> documents = List.of(products).stream()
+                .map(p -> new Document(
+                        p.getName() + ". " + p.getDescription() + ". Category: " + p.getCategory() + ". Price: $" + p.getPrice(),
+                        Map.of("name", p.getName(), "category", p.getCategory(), "price", p.getPrice())
+                ))
+                .toList();
+
+        vectorStore.add(documents);
+        System.out.println("Ingested " + documents.size() + " products into the vector store.");
+    }
 }
