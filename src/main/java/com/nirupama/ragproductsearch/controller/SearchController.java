@@ -1,10 +1,10 @@
 package com.nirupama.ragproductsearch.controller;
 
+import com.nirupama.ragproductsearch.dto.SearchRequest;
+import com.nirupama.ragproductsearch.dto.SearchResponse;
 import com.nirupama.ragproductsearch.dto.SearchResult;
 import com.nirupama.ragproductsearch.service.SearchService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -19,6 +19,11 @@ public class SearchController {
 
     @GetMapping("/api/search/raw")
     public List<SearchResult> searchRaw(@RequestParam String query) {
-        return searchService.searchProducts(query);
+        return searchService.searchProductsRaw(query);
+    }
+
+    @PostMapping("/api/search")
+    public SearchResponse search(@RequestBody SearchRequest request) {
+        return searchService.searchWithSynthesis(request.query());
     }
 }

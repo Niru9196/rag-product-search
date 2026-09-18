@@ -1,4 +1,4 @@
 package com.nirupama.ragproductsearch.dto;
 
-public class SearchRequest {
+public record SearchRequest(String query) {
 }

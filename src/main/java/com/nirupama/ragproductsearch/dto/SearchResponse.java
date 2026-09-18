@@ -1,4 +1,6 @@
 package com.nirupama.ragproductsearch.dto;
 
-public class SearchResponse {
+import java.util.List;
+
+public record SearchResponse(String answer, List<SearchResult> matchedProducts) {
 }

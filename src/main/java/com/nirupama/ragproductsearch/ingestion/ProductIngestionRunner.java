@@ -3,6 +3,7 @@ package com.nirupama.ragproductsearch.ingestion;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nirupama.ragproductsearch.model.Product;
 import org.springframework.ai.document.Document;
+import org.springframework.ai.vectorstore.SearchRequest;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
@@ -26,6 +27,15 @@ public class ProductIngestionRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        List<org.springframework.ai.document.Document> existing = vectorStore.similaritySearch(
+                SearchRequest.builder().query("product").topK(1).build()
+        );
+
+        if (!existing.isEmpty()) {
+            System.out.println("Vector store already has data — skipping ingestion.");
+            return;
+        };
+
         ObjectMapper mapper = new ObjectMapper();
         Product[] products = mapper.readValue(productsFile.getInputStream(), Product[].class);
 
