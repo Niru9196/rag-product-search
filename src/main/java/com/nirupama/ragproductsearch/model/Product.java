@@ -1,27 +1,32 @@
 package com.nirupama.ragproductsearch.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
-@Entity
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
-public class Product {
+import java.util.List;
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    private String name;
-    private String description;
-    private String category;
-    private Double price;
+/**
+ * A catalog product as defined in products.json. Products are only stored in the
+ * vector store, so this is a plain value object (not a JPA entity).
+ *
+ * @param image path served by the backend, e.g. "/images/product_1.png"
+ */
+@JsonIgnoreProperties(ignoreUnknown = true)
+public record Product(
+        Integer id,
+        String name,
+        String category,
+        Double price,
+        Double was,
+        List<String> colors,
+        String fabric,
+        String fit,
+        Double rating,
+        Integer reviews,
+        Integer age,
+        List<String> tags,
+        @JsonProperty("isNew") boolean isNew,
+        String description,
+        String image
+) {
 }

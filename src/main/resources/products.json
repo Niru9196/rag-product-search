@@ -1,260 +1,290 @@
 [
   {
-    "name": "TrailBlaze Waterproof Jacket",
-    "description": "Lightweight waterproof hiking jacket with breathable membrane, ideal for wet trail conditions.",
-    "category": "Outdoor",
-    "price": 45.99
+    "id": 1, "name": "Striped Flutter Sleeve Peplum Blouse", "category": "women",
+    "price": 50, "was": 80.5, "colors": ["bone", "terracotta", "slate"],
+    "fabric": "Viscose crepe", "fit": "Relaxed, peplum hem", "rating": 4.6, "reviews": 122, "age": 26,
+    "tags": ["blouse", "striped", "occasion"], "isNew": false,
+    "description": "A softly structured blouse in fluid viscose crepe. The flutter sleeve falls from a dropped shoulder and the overlap collar sits open without gaping, while a seamed peplum hem gives shape through the waist without a cinch.",
+    "image": "/images/product_1.png"
   },
   {
-    "name": "Summit Pro Hiking Boots",
-    "description": "Durable ankle-support hiking boots with rubber grip sole for rocky terrain.",
-    "category": "Outdoor",
-    "price": 89.99
+    "id": 2, "name": "Crepe Wrap Midi Dress", "category": "women",
+    "price": 85, "was": 120.5, "colors": ["ink", "rust", "sage"],
+    "fabric": "Recycled crepe de chine", "fit": "True to size, wrap front", "rating": 4.8, "reviews": 214, "age": 12,
+    "tags": ["dress", "midi", "occasion", "wrap"], "isNew": true,
+    "description": "A true wrap, tied rather than faked, in a recycled crepe that moves well and creases little. The skirt falls to mid-calf with a generous overlap so it stays closed when you walk.",
+    "image": "/images/product_2.png"
   },
   {
-    "name": "Everyday Cotton T-Shirt",
-    "description": "Soft breathable cotton t-shirt for casual daily wear.",
-    "category": "Apparel",
-    "price": 12.99
+    "id": 3, "name": "Oversized Cotton Poplin Shirt", "category": "women",
+    "price": 60, "was": 100.5, "colors": ["bone", "denim", "oat"],
+    "fabric": "Organic cotton poplin", "fit": "Oversized, drop shoulder", "rating": 4.4, "reviews": 96, "age": 58,
+    "tags": ["shirt", "cotton", "layering"], "isNew": false,
+    "description": "Cut deliberately large to be worn open over a tee or buttoned with the sleeves pushed up. Crisp organic poplin that softens with every wash, finished with a curved shirt-tail hem.",
+    "image": "/images/product_3.png"
   },
   {
-    "name": "Alpine Storm Shell",
-    "description": "Heavy-duty waterproof shell jacket designed for hiking, climbing, and severe mountain weather.",
-    "category": "Outdoor",
-    "price": 119.99
+    "id": 4, "name": "Ribbed Knit Turtleneck", "category": "women",
+    "price": 100, "was": 150, "colors": ["cream", "charcoal", "clay"],
+    "fabric": "Merino wool blend", "fit": "Slim, stretches to fit", "rating": 4.7, "reviews": 178, "age": 40,
+    "tags": ["knitwear", "turtleneck", "wool", "layering"], "isNew": false,
+    "description": "A fine 2x2 rib in a merino blend that holds its shape through the day. The neck is tall enough to fold once and the body is long enough to stay tucked.",
+    "image": "/images/product_4.png"
   },
   {
-    "name": "RidgeRunner Trail Shoes",
-    "description": "Lightweight trail running shoes with aggressive traction for muddy and uneven hiking paths.",
-    "category": "Outdoor",
-    "price": 74.99
+    "id": 5, "name": "Pleated Wide-Leg Trousers", "category": "women",
+    "price": 75, "was": 110, "colors": ["olive", "ink", "oat"],
+    "fabric": "Tencel twill", "fit": "High rise, wide leg", "rating": 4.5, "reviews": 134, "age": 33,
+    "tags": ["trousers", "tailoring", "wide-leg"], "isNew": false,
+    "description": "Two pressed pleats release from a high waistband into a column leg that skims rather than clings. Cut in a Tencel twill with enough weight to hang straight.",
+    "image": "/images/product_5.png"
   },
   {
-    "name": "Forest Trek Pants",
-    "description": "Durable stretch hiking pants with water-resistant fabric and multiple utility pockets.",
-    "category": "Outdoor",
-    "price": 54.99
+    "id": 6, "name": "Cropped Linen Jacket", "category": "women",
+    "price": 95, "was": 140, "colors": ["ecru", "sage", "terracotta"],
+    "fabric": "European flax linen", "fit": "Boxy, cropped", "rating": 4.3, "reviews": 71, "age": 8,
+    "tags": ["jacket", "linen", "summer"], "isNew": true,
+    "description": "An unlined summer jacket in mid-weight European flax. Boxy through the body, cropped at the hip, and softened at the shoulder so it layers over a dress without bulk.",
+    "image": "/images/product_6.png"
   },
   {
-    "name": "Summit Fleece Pullover",
-    "description": "Warm lightweight fleece pullover for layering during cool-weather hikes and camping trips.",
-    "category": "Outdoor",
-    "price": 39.99
+    "id": 7, "name": "Satin Slip Camisole", "category": "women",
+    "price": 38, "was": 62, "colors": ["rose", "bone", "ink"],
+    "fabric": "Cupro satin", "fit": "Bias cut, adjustable strap", "rating": 4.2, "reviews": 88, "age": 71,
+    "tags": ["camisole", "satin", "layering"], "isNew": false,
+    "description": "Cut on the bias so it falls close without gripping. Cupro satin has the handle of silk and survives a cool machine wash, and the straps adjust properly at the back.",
+    "image": "/images/product_7.png"
   },
   {
-    "name": "Explorer Daypack 25L",
-    "description": "Compact 25-liter hiking backpack with hydration compartment and padded shoulder straps.",
-    "category": "Outdoor",
-    "price": 64.99
+    "id": 8, "name": "Cable-Knit Cardigan", "category": "women",
+    "price": 110, "was": 165, "colors": ["oat", "indigo", "rust"],
+    "fabric": "Lambswool", "fit": "Relaxed, hip length", "rating": 4.9, "reviews": 246, "age": 47,
+    "tags": ["knitwear", "cardigan", "wool"], "isNew": false,
+    "description": "A heavyweight lambswool cardigan with a traditional cable running the length of each front panel. Horn-look buttons, ribbed cuffs deep enough to turn back.",
+    "image": "/images/product_8.png"
   },
   {
-    "name": "Canyon Trekking Poles",
-    "description": "Adjustable aluminum trekking poles with ergonomic handles for stability on steep trails.",
-    "category": "Outdoor",
-    "price": 29.99
+    "id": 9, "name": "High-Rise Straight Jeans", "category": "women",
+    "price": 88, "was": 125, "colors": ["denim", "ink", "bone"],
+    "fabric": "Rigid cotton denim, 12oz", "fit": "High rise, straight leg", "rating": 4.6, "reviews": 302, "age": 88,
+    "tags": ["denim", "jeans", "straight"], "isNew": false,
+    "description": "A rigid 12oz denim that breaks in properly rather than stretching out. High waist, straight through the hip and thigh, and hemmed to sit at the ankle.",
+    "image": "/images/product_9.png"
   },
   {
-    "name": "StormGuard Rain Pants",
-    "description": "Packable waterproof rain pants designed to keep hikers dry during heavy rainfall.",
-    "category": "Outdoor",
-    "price": 34.99
+    "id": 10, "name": "Tiered Cotton Maxi Skirt", "category": "women",
+    "price": 68, "was": 98, "colors": ["terracotta", "bone", "olive"],
+    "fabric": "Crinkle cotton", "fit": "Elasticated waist, full length", "rating": 4.1, "reviews": 57, "age": 19,
+    "tags": ["skirt", "maxi", "cotton", "summer"], "isNew": false,
+    "description": "Three gathered tiers in a crinkle cotton that needs no ironing. A covered elastic waistband sits flat and there are real pockets in the side seams.",
+    "image": "/images/product_10.png"
   },
   {
-    "name": "Thermal Base Layer",
-    "description": "Moisture-wicking thermal long-sleeve base layer for cold-weather outdoor activities.",
-    "category": "Outdoor",
-    "price": 27.99
+    "id": 11, "name": "Boxy Cropped Tee", "category": "women",
+    "price": 28, "was": 45, "colors": ["cream", "ink", "sage", "clay"],
+    "fabric": "Heavy organic jersey, 240gsm", "fit": "Boxy, cropped", "rating": 4.4, "reviews": 163, "age": 5,
+    "tags": ["tee", "jersey", "cotton", "basic"], "isNew": true,
+    "description": "A 240gsm organic jersey with enough body to hold a square shape. Cropped to sit at the high hip, with a wide ribbed neck that won't stretch out.",
+    "image": "/images/product_11.png"
   },
   {
-    "name": "Peak Performance Windbreaker",
-    "description": "Lightweight wind-resistant jacket for hiking, running, and exposed mountain trails.",
-    "category": "Outdoor",
-    "price": 49.99
+    "id": 12, "name": "Belted Twill Trench", "category": "women",
+    "price": 145, "was": 210, "colors": ["oat", "olive", "ink"],
+    "fabric": "Cotton twill, water-repellent finish", "fit": "Relaxed, mid-calf", "rating": 4.8, "reviews": 119, "age": 64,
+    "tags": ["coat", "trench", "outerwear"], "isNew": false,
+    "description": "A proper trench in dense cotton twill with a water-repellent finish: storm flap, back vent, and a self belt with a covered buckle. Cut long enough to cover a midi skirt.",
+    "image": "/images/product_12.png"
   },
   {
-    "name": "Urban Cotton Hoodie",
-    "description": "Soft heavyweight cotton-blend hoodie designed for comfortable everyday casual wear.",
-    "category": "Apparel",
-    "price": 34.99
+    "id": 13, "name": "Brushed Cotton Overshirt", "category": "men",
+    "price": 85, "was": 120.5, "colors": ["olive", "charcoal", "clay"],
+    "fabric": "Brushed cotton twill", "fit": "Relaxed, straight hem", "rating": 4.7, "reviews": 188, "age": 22,
+    "tags": ["overshirt", "shirt-jacket", "cotton"], "isNew": false,
+    "description": "The weight of a light jacket with the ease of a shirt. Brushed cotton twill, two chest pockets with a clean bartack, and a straight hem so it wears untucked.",
+    "image": "/images/product_13.png"
   },
   {
-    "name": "Classic Slim Chinos",
-    "description": "Versatile slim-fit cotton chinos suitable for office wear and smart casual outfits.",
-    "category": "Apparel",
-    "price": 39.99
+    "id": 14, "name": "Merino Crew Neck Sweater", "category": "men",
+    "price": 95, "was": 140, "colors": ["indigo", "oat", "charcoal"],
+    "fabric": "Extra-fine merino wool", "fit": "Regular", "rating": 4.8, "reviews": 264, "age": 44,
+    "tags": ["knitwear", "sweater", "merino", "wool"], "isNew": false,
+    "description": "A 19.5 micron merino knitted at a fine gauge, so it layers under a jacket without bulk. Fully fashioned shoulders and a ribbed neck that keeps its shape.",
+    "image": "/images/product_14.png"
   },
   {
-    "name": "Performance Polo Shirt",
-    "description": "Breathable moisture-wicking polo shirt suitable for casual wear, travel, and outdoor activities.",
-    "category": "Apparel",
-    "price": 24.99
+    "id": 15, "name": "Relaxed Oxford Shirt", "category": "men",
+    "price": 62, "was": 95, "colors": ["bone", "denim", "sage"],
+    "fabric": "Organic cotton oxford", "fit": "Relaxed, button-down collar", "rating": 4.5, "reviews": 141, "age": 67,
+    "tags": ["shirt", "oxford", "cotton"], "isNew": false,
+    "description": "A softly woven organic oxford with a proper roll to the button-down collar. Cut relaxed through the body, with a single patch pocket and a split back yoke.",
+    "image": "/images/product_15.png"
   },
   {
-    "name": "Relaxed Linen Shirt",
-    "description": "Lightweight linen button-down shirt designed for warm weather and relaxed summer outfits.",
-    "category": "Apparel",
-    "price": 32.99
+    "id": 16, "name": "Tapered Chino Trousers", "category": "men",
+    "price": 72, "was": 105, "colors": ["oat", "olive", "ink"],
+    "fabric": "Cotton twill with 2% elastane", "fit": "Mid rise, tapered", "rating": 4.4, "reviews": 197, "age": 52,
+    "tags": ["trousers", "chino", "tapered"], "isNew": false,
+    "description": "A cotton twill with just enough elastane to move in. Sits at the mid rise, straight through the thigh and tapered from the knee to a clean break at the ankle.",
+    "image": "/images/product_16.png"
   },
   {
-    "name": "Essential V-Neck Tee",
-    "description": "Soft cotton-blend V-neck t-shirt with a comfortable fit for everyday use.",
-    "category": "Apparel",
-    "price": 14.99
+    "id": 17, "name": "Garment-Dyed Heavy Tee", "category": "men",
+    "price": 34, "was": 52, "colors": ["cream", "rust", "slate", "ink"],
+    "fabric": "Garment-dyed cotton, 260gsm", "fit": "Boxy", "rating": 4.6, "reviews": 221, "age": 10,
+    "tags": ["tee", "cotton", "basic"], "isNew": true,
+    "description": "Dyed after making so the colour sits slightly uneven and softens with wear. 260gsm cotton, twin-needle hems, and a taped neck that survives the wash.",
+    "image": "/images/product_17.png"
   },
   {
-    "name": "Merino Wool Sweater",
-    "description": "Soft temperature-regulating merino wool sweater for comfortable layering in cool weather.",
-    "category": "Apparel",
-    "price": 69.99
+    "id": 18, "name": "Quilted Liner Jacket", "category": "men",
+    "price": 128, "was": 185, "colors": ["olive", "ink", "clay"],
+    "fabric": "Recycled nylon, recycled wadding", "fit": "Regular, hip length", "rating": 4.5, "reviews": 108, "age": 30,
+    "tags": ["jacket", "quilted", "outerwear"], "isNew": false,
+    "description": "A light quilted liner that works alone in autumn or under a coat in winter. Recycled nylon shell, recycled wadding, and a jersey-bound collar that sits flat.",
+    "image": "/images/product_18.png"
   },
   {
-    "name": "Athletic Jogger Pants",
-    "description": "Stretchy lightweight joggers with moisture-wicking fabric for workouts and casual lounging.",
-    "category": "Apparel",
-    "price": 29.99
+    "id": 19, "name": "Selvedge Denim Jacket", "category": "men",
+    "price": 138, "was": 195, "colors": ["denim", "ink"],
+    "fabric": "Japanese selvedge denim, 13.5oz", "fit": "Regular, cropped", "rating": 4.9, "reviews": 176, "age": 77,
+    "tags": ["denim", "jacket", "selvedge", "outerwear"], "isNew": false,
+    "description": "Japanese 13.5oz selvedge with a visible red line at the side seam. Unwashed, so it fades to your own wear pattern. Adjustable waist tabs and copper rivets.",
+    "image": "/images/product_19.png"
   },
   {
-    "name": "Classic Denim Jacket",
-    "description": "Midweight cotton denim jacket with a timeless design for casual everyday outfits.",
-    "category": "Apparel",
-    "price": 59.99
+    "id": 20, "name": "Waffle-Knit Henley", "category": "men",
+    "price": 48, "was": 72, "colors": ["oat", "charcoal", "rust"],
+    "fabric": "Cotton waffle knit", "fit": "Regular", "rating": 4.3, "reviews": 94, "age": 39,
+    "tags": ["henley", "knit", "cotton", "layering"], "isNew": false,
+    "description": "A textured cotton waffle that traps a little warmth without a jumper's weight. Four-button placket, ribbed cuffs, and a slightly dropped shoulder.",
+    "image": "/images/product_20.png"
   },
   {
-    "name": "Running Performance Shorts",
-    "description": "Lightweight quick-drying athletic shorts with breathable panels for running and training.",
-    "category": "Apparel",
-    "price": 19.99
+    "id": 21, "name": "Pleated Wool Trousers", "category": "men",
+    "price": 118, "was": 170, "colors": ["charcoal", "oat", "indigo"],
+    "fabric": "Wool blend suiting", "fit": "High rise, wide leg", "rating": 4.6, "reviews": 83, "age": 15,
+    "tags": ["trousers", "tailoring", "wool", "pleated"], "isNew": true,
+    "description": "Single-pleated tailored trousers in a mid-weight wool blend. Cut high on the waist with a wide, straight leg and a half-inch turn-up at the hem.",
+    "image": "/images/product_21.png"
   },
   {
-    "name": "Wireless Noise Cancelling Headphones",
-    "description": "Over-ear Bluetooth headphones with active noise cancellation and long battery life.",
-    "category": "Electronics",
-    "price": 129.99
+    "id": 22, "name": "Zip-Through Track Jacket", "category": "men",
+    "price": 82, "was": 118, "colors": ["slate", "ink", "sage"],
+    "fabric": "Recycled poly tricot", "fit": "Regular", "rating": 4.2, "reviews": 112, "age": 61,
+    "tags": ["jacket", "track", "sport"], "isNew": false,
+    "description": "A tricot track jacket cut closer to a 70s original than a gym top. Contrast piping along the raglan sleeve, ribbed collar, and two zipped hand pockets.",
+    "image": "/images/product_22.png"
   },
   {
-    "name": "Compact Bluetooth Speaker",
-    "description": "Portable waterproof Bluetooth speaker with clear audio and up to twelve hours of battery life.",
-    "category": "Electronics",
-    "price": 49.99
+    "id": 23, "name": "Corduroy Work Shirt", "category": "men",
+    "price": 78, "was": 112, "colors": ["clay", "olive", "oat"],
+    "fabric": "8-wale cotton corduroy", "fit": "Relaxed", "rating": 4.7, "reviews": 137, "age": 49,
+    "tags": ["shirt", "corduroy", "cotton"], "isNew": false,
+    "description": "A broad 8-wale corduroy with real substance. Two flapped chest pockets, a reinforced back yoke, and a spread collar that stands up under a jacket.",
+    "image": "/images/product_23.png"
   },
   {
-    "name": "Ergonomic Wireless Mouse",
-    "description": "Comfortable wireless mouse with adjustable sensitivity designed for long computer sessions.",
-    "category": "Electronics",
-    "price": 24.99
+    "id": 24, "name": "Lightweight Linen Blazer", "category": "men",
+    "price": 155, "was": 220, "colors": ["ecru", "indigo", "sage"],
+    "fabric": "European flax linen", "fit": "Unstructured, single breasted", "rating": 4.4, "reviews": 66, "age": 6,
+    "tags": ["blazer", "linen", "tailoring", "summer"], "isNew": true,
+    "description": "Unlined and unstructured, so it wears like a shirt but reads as tailoring. Patch pockets, a soft shoulder, and horn-look buttons on a two-button front.",
+    "image": "/images/product_24.png"
   },
   {
-    "name": "Mechanical Gaming Keyboard",
-    "description": "Compact mechanical keyboard with tactile switches and programmable keys for gaming and productivity.",
-    "category": "Electronics",
-    "price": 79.99
+    "id": 25, "name": "Rainbow Stripe Long Sleeve Tee", "category": "kid",
+    "price": 22, "was": 34, "colors": ["cream", "terracotta", "denim"],
+    "fabric": "Organic cotton jersey", "fit": "Regular", "rating": 4.8, "reviews": 156, "age": 18,
+    "tags": ["tee", "striped", "cotton", "everyday"], "isNew": false,
+    "description": "Soft organic jersey in a yarn-dyed stripe that won't fade in the wash. An envelope neck on the smaller sizes makes it easy to pull on without a fight.",
+    "image": "/images/product_25.png"
   },
   {
-    "name": "USB-C Fast Charger",
-    "description": "Compact 65W USB-C wall charger for quickly charging laptops, tablets, and smartphones.",
-    "category": "Electronics",
-    "price": 39.99
+    "id": 26, "name": "Corduroy Dungarees", "category": "kid",
+    "price": 42, "was": 62, "colors": ["clay", "olive", "denim"],
+    "fabric": "Cotton corduroy", "fit": "Relaxed, adjustable strap", "rating": 4.7, "reviews": 128, "age": 35,
+    "tags": ["dungarees", "corduroy", "everyday"], "isNew": false,
+    "description": "Hard-wearing cotton cord with adjustable straps to follow a growth spurt. Reinforced knees, a big front pocket, and poppers down one leg for quick changes.",
+    "image": "/images/product_26.png"
   },
   {
-    "name": "Smart Fitness Watch",
-    "description": "Fitness smartwatch with heart-rate tracking, activity monitoring, GPS, and sleep tracking.",
-    "category": "Electronics",
-    "price": 99.99
+    "id": 27, "name": "Quilted Puffer Gilet", "category": "kid",
+    "price": 48, "was": 70, "colors": ["mustard", "sage", "ink"],
+    "fabric": "Recycled nylon, recycled fill", "fit": "Regular", "rating": 4.5, "reviews": 91, "age": 25,
+    "tags": ["gilet", "quilted", "outerwear"], "isNew": false,
+    "description": "A light, packable gilet for the in-between weather. Recycled shell and fill, a high collar, and zipped pockets that actually keep things in.",
+    "image": "/images/product_27.png"
   },
   {
-    "name": "Portable Power Bank",
-    "description": "High-capacity USB-C power bank for charging smartphones and other devices while traveling.",
-    "category": "Electronics",
-    "price": 44.99
+    "id": 28, "name": "Jersey Pull-On Joggers", "category": "kid",
+    "price": 26, "was": 38, "colors": ["charcoal", "sage", "rose"],
+    "fabric": "Brushed-back cotton jersey", "fit": "Relaxed, elasticated", "rating": 4.6, "reviews": 174, "age": 42,
+    "tags": ["joggers", "jersey", "everyday", "cotton"], "isNew": false,
+    "description": "Brushed soft on the inside, with a flat elasticated waist and no drawcord to chew. Cuffed ankles stay put on a scooter.",
+    "image": "/images/product_28.png"
   },
   {
-    "name": "4K Streaming Webcam",
-    "description": "High-resolution webcam with autofocus and built-in microphone for video meetings and streaming.",
-    "category": "Electronics",
-    "price": 89.99
+    "id": 29, "name": "Printed Cotton Sundress", "category": "kid",
+    "price": 32, "was": 48, "colors": ["bone", "rose", "sage"],
+    "fabric": "Organic cotton poplin", "fit": "A-line", "rating": 4.4, "reviews": 82, "age": 9,
+    "tags": ["dress", "cotton", "summer", "printed"], "isNew": true,
+    "description": "A simple A-line sundress in organic poplin, printed with a small hand-drawn floral. Ties at the shoulder so it lasts more than one summer.",
+    "image": "/images/product_29.png"
   },
   {
-    "name": "Minimalist Desk Lamp",
-    "description": "Adjustable LED desk lamp with multiple brightness levels for reading and computer work.",
-    "category": "Home",
-    "price": 34.99
+    "id": 30, "name": "Fleece Zip Hoodie", "category": "kid",
+    "price": 38, "was": 55, "colors": ["denim", "terracotta", "oat"],
+    "fabric": "Recycled polyester fleece", "fit": "Regular", "rating": 4.5, "reviews": 143, "age": 56,
+    "tags": ["hoodie", "fleece", "outerwear"], "isNew": false,
+    "description": "A warm recycled fleece with a full-length zip and a chin guard at the top so it doesn't scratch. Deep hood, two lined hand pockets.",
+    "image": "/images/product_30.png"
   },
   {
-    "name": "Memory Foam Pillow",
-    "description": "Contoured memory foam pillow designed to provide neck support and comfortable sleep.",
-    "category": "Home",
-    "price": 39.99
+    "id": 31, "name": "Denim Pinafore Dress", "category": "kid",
+    "price": 44, "was": 64, "colors": ["denim", "ink"],
+    "fabric": "Cotton denim, 10oz", "fit": "Relaxed, adjustable strap", "rating": 4.6, "reviews": 97, "age": 31,
+    "tags": ["dress", "pinafore", "denim"], "isNew": false,
+    "description": "A 10oz cotton denim pinafore to layer over a tee all year. Adjustable buttoned straps, a patch front pocket, and a hem deep enough to let down.",
+    "image": "/images/product_31.png"
   },
   {
-    "name": "Bamboo Cutting Board",
-    "description": "Durable natural bamboo cutting board with a spacious surface for everyday kitchen preparation.",
-    "category": "Home",
-    "price": 22.99
+    "id": 32, "name": "Ribbed Cotton Leggings", "category": "kid",
+    "price": 18, "was": 28, "colors": ["ink", "rose", "sage", "cream"],
+    "fabric": "Ribbed organic cotton", "fit": "Slim, elasticated", "rating": 4.3, "reviews": 205, "age": 73,
+    "tags": ["leggings", "cotton", "basic", "everyday"], "isNew": false,
+    "description": "A fine cotton rib with plenty of stretch and a soft covered waistband. Sold as a staple — they go under everything and survive the tumble dryer.",
+    "image": "/images/product_32.png"
   },
   {
-    "name": "Ceramic Coffee Mug Set",
-    "description": "Set of four durable ceramic mugs suitable for coffee, tea, and everyday kitchen use.",
-    "category": "Home",
-    "price": 24.99
+    "id": 33, "name": "Checked Flannel Shirt", "category": "kid",
+    "price": 34, "was": 50, "colors": ["rust", "olive", "denim"],
+    "fabric": "Brushed cotton flannel", "fit": "Relaxed", "rating": 4.4, "reviews": 76, "age": 45,
+    "tags": ["shirt", "flannel", "checked", "cotton"], "isNew": false,
+    "description": "Brushed cotton flannel in a yarn-dyed check, soft from the first wear. One chest pocket, a curved hem, and buttons a small hand can manage.",
+    "image": "/images/product_33.png"
   },
   {
-    "name": "Cotton Bath Towel Set",
-    "description": "Soft absorbent cotton towel set designed for comfortable everyday bathroom use.",
-    "category": "Home",
-    "price": 29.99
+    "id": 34, "name": "Crew Neck Sweatshirt", "category": "kid",
+    "price": 30, "was": 44, "colors": ["oat", "sage", "mustard"],
+    "fabric": "Loopback organic cotton", "fit": "Regular", "rating": 4.7, "reviews": 188, "age": 14,
+    "tags": ["sweatshirt", "cotton", "everyday"], "isNew": true,
+    "description": "Classic loopback organic cotton with ribbed cuffs and hem and a stitched V insert at the neck to stop it stretching. Gets softer every wash.",
+    "image": "/images/product_34.png"
   },
   {
-    "name": "Stainless Steel Water Bottle",
-    "description": "Insulated stainless steel bottle that keeps drinks cold or hot for hours.",
-    "category": "Home",
-    "price": 27.99
+    "id": 35, "name": "Colour-Block Windbreaker", "category": "kid",
+    "price": 52, "was": 76, "colors": ["mustard", "denim", "terracotta"],
+    "fabric": "Recycled ripstop nylon", "fit": "Relaxed", "rating": 4.2, "reviews": 64, "age": 4,
+    "tags": ["jacket", "windbreaker", "outerwear"], "isNew": true,
+    "description": "A packable recycled ripstop shell that folds into its own pocket. Elasticated cuffs, a drawcord hem, and reflective tape across the back yoke.",
+    "image": "/images/product_35.png"
   },
   {
-    "name": "Robot Vacuum Cleaner",
-    "description": "Automatic robotic vacuum with scheduled cleaning and smart navigation for hard floors and carpets.",
-    "category": "Home",
-    "price": 199.99
-  },
-  {
-    "name": "Aromatic Soy Candle",
-    "description": "Hand-poured soy wax candle with a subtle cedar and vanilla fragrance for relaxing spaces.",
-    "category": "Home",
-    "price": 18.99
-  },
-  {
-    "name": "TrailFuel Insulated Lunch Bag",
-    "description": "Insulated lunch bag with compact storage designed for work, travel, hiking, and outdoor activities.",
-    "category": "Accessories",
-    "price": 21.99
-  },
-  {
-    "name": "Everyday Canvas Backpack",
-    "description": "Simple durable canvas backpack with laptop compartment for commuting, school, and daily travel.",
-    "category": "Accessories",
-    "price": 44.99
-  },
-  {
-    "name": "Polarized Trail Sunglasses",
-    "description": "Lightweight polarized sunglasses that reduce glare and provide eye protection during hiking and travel.",
-    "category": "Accessories",
-    "price": 31.99
-  },
-  {
-    "name": "Leather Travel Wallet",
-    "description": "Compact leather wallet with compartments for cards, cash, and travel documents.",
-    "category": "Accessories",
-    "price": 26.99
-  },
-  {
-    "name": "Waterproof Travel Duffel",
-    "description": "Large weather-resistant duffel bag with reinforced handles for weekend trips and outdoor adventures.",
-    "category": "Accessories",
-    "price": 69.99
-  },
-  {
-    "name": "Merino Hiking Socks",
-    "description": "Moisture-wicking merino wool hiking socks with cushioned soles for long-distance trail walking.",
-    "category": "Accessories",
-    "price": 16.99
+    "id": 36, "name": "Cotton Pyjama Set", "category": "kid",
+    "price": 28, "was": 42, "colors": ["cream", "rose", "denim"],
+    "fabric": "Organic cotton jersey", "fit": "Relaxed", "rating": 4.8, "reviews": 212, "age": 69,
+    "tags": ["pyjamas", "cotton", "sleepwear"], "isNew": false,
+    "description": "A two-piece set in breathable organic jersey, cut generous for sleeping. Flat seams throughout and a soft elastic waist with no scratchy label.",
+    "image": "/images/product_36.png"
   }
 ]
