@@ -58,10 +58,7 @@ public class SearchService {
         List<Document> results = vectorStore.similaritySearch(request);
 
         return results.stream()
-                .map(doc -> new SearchResult(
-                        doc.getText(),
-                        doc.getScore() != null ? doc.getScore() : 0.0
-                ))
+                .map(SearchResult::fromDocument)
                 .toList();
     }
 
